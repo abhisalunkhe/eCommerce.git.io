@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(216, 230, 230);
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    box-shadow: 1px 2px rgba(0,0,0,0.67);
+    left: 0;
+    right: 0;
+    position:relative;
+    background: rgba(0,0,0,0.17);
+}
+.logo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 60%;
+    width: 45%;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+.navitems{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    padding-top: 1.5rem;
+}
+.navitems a{
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(8, 71, 50);
+    font-weight: 600;
+}
+.navitems a:hover{
+    color: rgb(9, 174, 119);
+    transition: 0.5s ease-in;
+    font-size: 1.6rem;
+    box-shadow: 2px 3px rgba(0,0,0,0.67);
+    border-radius: 5rem;
+    background: ;
+}
+.herosection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.hero-text{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.text-cont{
+    width: 75%;
+    height: 75%;
+    margin: 25% 15%;
+}
+.text-cont h3{
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+.text-cont h1{
+    font-size: 3rem;
+    padding-left: 0.7rem;
+}
+.black-text{
+    color: rgb(57, 54, 54);
+}
+.green-text{
+    color: rgb(8, 169, 121);
+}
+.text-cont h5{
+    font-size: 1.2rem;
+    color: rgb(110, 115, 120);
+}
+button{
+    background: url(./button.png);
+    object-fit: cover;
+    object-position: center;
+    background-position: center;
+    background-size: cover;
+    width: 9rem;
+    height: 2.5rem;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.hero-img{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img img{
+    height: 90%;
+    width: 85%;
+    border-radius: 5rem;
+}
+.hero-img img:hover{
+    height: 93%;
+    width: 87%;
+}
+.features{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+}
+.feature-cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-cont{
+    width: 15%;
+    height: 65%;
+    margin: 5px 7px;
+    box-shadow: 3px 4px rgba(0,0,0,0.67);
+    border: 2px solid rebeccapurple;
+}
+.card-cont:hover{
+    width: 18%;
+    height: 68%;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.card-cont img{
+    padding: 1rem 2rem;
+}
+.card-cont h1{
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    background: lightgreen;
+}
+.products{
+    height: 180vh;
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 20%;
+    background: url(./banner/b1.jpg);
+    object-fit: cover;
+    object-position: center;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1-text h1{
+    color: #fff;
+    font-size: 4rem;
+}
+.product-cont{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.p-cont{
+    width: 90%;
+    height: 120vh;
+    border: 3px solid rgb(112, 104, 104);
+    justify-content: space-between;
+    padding: 5rem 3rem;
+    box-shadow: 3px 4px rgba(0,0,0,0.67);
+    display: flex;
+    flex-wrap: wrap;
+}
+.prod-card{
+    width: 23%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    border: 3px solid silver;
+    box-shadow: 4px 5px rgb(130, 117, 117);
+    
+}
+.prod-card:hover{
+    width: 25%;
+    background-color: rgb(180, 197, 197);
+}
+.prod-card img{
+    width: 15rem;
+    height: 13rem;
+    border-radius: 2rem;
+}
+.prod-details{
+    width: 13rem;
+    height: 4.5rem;
+}
+.prod-details h5{
+    margin-top: 5px;
+    color: rgb(44, 53, 58);
+}
+.prod-details h3{
+    color: rgb(137, 124, 124);
+    font-weight: 800;
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.stars{
+    width: 50%;
+    padding: 3px 1px;
+    color: rgb(205, 205, 11);
+    margin-top: 5px;
+}
+.banner1{
+    width: 100%;
+    height: 20%;
+    background: url(./banner/b2.jpg);
+    object-fit: cover;
+    object-position: center;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h4-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h4-text h4{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.h4-text h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.prod-btn{
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid red;
+    background: none;
+    color: #fff;
+    font-size: larger;
+}
+.prod-btn:hover{
+    color: black;
+    background: rgb(189, 181, 181);
+    transition: 2s ease-out;
+    border-bottom: 2px solid rgb(125, 117, 117);
+    border-radius: 5rem;
+}
+.blogging{
+    width: 100%;
+    height: 180vh;
+    justify-content: center;
+    align-items: center;
+}
+.blog{
+    width: 100%;
+    height: 70%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner2{
+    width: 100%;
+    height: 20%;
+    background: url(./banner/b1.jpg);
+    object-fit: cover;
+    object-position: center;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1-text1 h1{
+    color: #fff;
+    font-size: 3.5rem;
+}
+.blog-cont1{
+    width: 70%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 6px rgba(0,0,0,0.17);
+    margin-top: 1.2rem;
+    border: 3px solid rgb(80, 44, 116);
+}
+.blog-cont1:hover{
+    border-radius: 3rem;
+    height: 46%;
+    width: 71%;
+    cursor: pointer;
+    box-shadow: 12px 13px rgba(0,0,0,0.17);
+}
+.blog-cont{
+    width: 70%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-cont img{
+    width: 245px;
+    height: 205px;
+    border-radius: 5rem;
+}
+.blog-text{
+    width: 80%;
+    height: 55%;
+}
+.blog-text h3{
+    font-size: 1.5rem;
+}
+.blog-text p{
+    margin-top: 1rem;
+}
+.blog-text h2{
+    margin-top: 0.7rem;
+    color: rgb(160, 153, 153);
+}
+.aboutus{
+    width: 100%;
+    height: 100vh;
+}
+.banner3{
+    width: 100%;
+    height: 30%;
+    background: url(./about/banner.png);
+    object-fit: cover;
+    object-position: center;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutus-div{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 3rem;
+}
+.aboutus-div img{
+    width: 35rem;
+    height: 25rem;
+    border: 3px solid rgb(148, 78, 78);
+    box-shadow: 5px 6px rgba(0,0,0,0.67) ;
+}
+.about-txt-cont{
+    width: 50%;
+    height: 100%;
+    padding-top: 3rem;
+}
+.about-txt-cont h1{
+    font-size: 4rem;
+    color: rgb(86, 68, 68);
+}
+.aboutus-div p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.aboutus-div h5{
+    font-size: 0.9rem;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+.subscribe{
+    width: 100%;
+    height: 8rem;
+    background-color: aqua;
+    display: flex;
+}
+.sub-cont{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-text{
+    width: 80%;
+    height: 95%;
+    padding: 1rem;
+}
+.sub-text h1{
+    font-size: 2.5rem;
+}
+.sub-text h4{
+    font-size: 1.3rem;
+    color: rgb(17, 95, 164);
+}
+.sub-box{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-cont1{
+    width: 100%;
+    height: 90%;
+    padding: 1.2rem 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    width: 20rem;
+    height: 3rem;
+}
+input{
+    font-size: 1.5rem;
+    border: none;
+}
+.submit{
+    height: 3rem;
+    width: 9rem;
+    margin-left: 0rem;
+    background: rgb(12, 187, 245);
+    border: none;
+}
+.submit:hover{
+    background: rgb(15, 111, 140);
+    color: #fff;
+}
+footer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    height: 90%;
+    width: 90%;
+    padding: 3rem;
+    justify-content: space-between;
+}
+.col1{
+    width: 30%;
+    height: 100%;
+}
+.col1 h3{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(7, 113, 113);
+    font-weight: 600;
+}
+.col1 img{
+    width: 18rem;
+    height: 4rem;
+}
+.social-media{
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.social-media a{
+    text-decoration: none;
+}
+.social-media i{
+    color: rgb(7, 113, 113);
+    padding-left: 0.9rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.col2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+}
+.col2 a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(7, 113, 113);
+    font-weight: 600;
+}
+.col3{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+}
+.col3 a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(7, 113, 113);
+    font-weight: 600;
+}
+.col4{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+}
+.col4 h3{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(7, 113, 113);
+    font-weight: 600;
+}
+.payment-getway img{
+    width: 22rem;
+}
+.col4 img:hover{
+    cursor: pointer;
+}
